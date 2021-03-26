@@ -61,4 +61,48 @@ Topics were fairly distinct and generally described the locational circumstances
 ## K Means
 
 
+After completing the text processing, we applied KMeans clustering along with NMF to the TFIDF vectorized dataset. To see how the two methods compared, we set both cluster/topic hyperparameters to  10. 
+
+Similar to NMF, the key words that made up the 10 groups provided insight into which articles could be used to collect info on Big Foot sightings near roads, wooded areas, homes/buildings, and bodies of water. Reports in group 5 seemed to provide the most details on what Big Foot actually looked like.
+
+
+Top Words for Each Cluster:
+0: lake, heard, area, time, like, trail, just, sound, bigfoot, saw 
+1, tree, woods, deer, trail, area, hunting, like, heard, just, time 
+2, road, saw, car, just, creature, feet, area, tall, like, right 
+3, house, heard, like, woods, saw, just, night, time, went, said 
+4, river, heard, saw, like, just, area, time, went, looked, walking
+5, saw, looked, like, tall, creature, just, large, feet, seen, hair 
+6, heard, sound, like, sounded, night, sounds, loud, noise, hear, area 
+7, tracks, area, foot, road, like, long, large, took, saw, day 
+8, camp, night, heard, like, went, got, sound, just, time, area 
+9, creek, area, heard, like, saw, got, time, just, looked, road
+
+
+When we mapped these groups back to U.S. states we saw that Group 3-7 were mostly from Washington and Michigan.
+
+Most Common States in Each Cluster:
+Group 0: [(' Illinois', 3), (' Michigan', 3), (' Washington', 2), (' Ohio', 1), (' Kansas', 1)]
+
+Group 1: [(' Illinois', 5), (' Washington', 4), (' Michigan', 4), (' Missouri', 4), (' Ohio', 2)]
+
+Group 2: [(' Michigan', 7), (' Illinois', 5), (' Ohio', 4), (' Washington', 4), (' Missouri', 4)]
+
+Group 3: [(' Washington', 13), (' Michigan', 7), (' Georgia', 6), (' Illinois', 5), (' Missouri', 5)]
+
+Group 4: [(' Washington', 17), (' Michigan', 9), (' Illinois', 7), (' Georgia', 7), (' Missouri', 6)]
+
+Group 5: [(' Washington', 19), (' Michigan', 10), (' Georgia', 9), (' Illinois', 8), (' Florida', 7)]
+
+Group 6: [(' Washington', 21), (' Michigan', 10), (' Florida', 9), (' Georgia', 9), (' Illinois', 8)]
+
+Group 7: [(' Washington', 23), (' Michigan', 10), (' Florida', 9), (' Georgia', 9), (' Illinois', 8)]
+
+Group 8: [(' Washington', 27), (' Michigan', 11), (' Georgia', 10), (' Florida', 9), (' Oregon', 9)]
+
+Group 9: [(' Washington', 32), (' Michigan', 13), (' Georgia', 11), (' Illinois', 10), (' Ohio', 9)]
+
+
+
+
 
