@@ -12,7 +12,7 @@ data = pd.read_json('data/bigfoot_data.json', lines=True)
 It became clear that the 'html' column was the column of interest, and since it was still a dense thicket of HTML, we cooked up a function using BeautifulSoup to parse the html. This parser took the 'html' column as input and returned a dataframe indexed by report ID, with features and observations corresponding to the key-value pairs of each report. 
 
 ## Features: 
-* Year
+* Year, with some data going back as far as the 1800s, up to the present
 * Season
 * Month
 * State
