@@ -1,6 +1,6 @@
+# Hunting Through Random Forest for BigFoot: Descending a Ridge to Find the Decomposed Remains
 
-
-# Raw (Hairy) Data:
+## Raw (Hairy) Data:
 
 The raw data took the form of a JSON file of HMTL code. 
 
