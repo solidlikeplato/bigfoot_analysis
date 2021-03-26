@@ -41,6 +41,19 @@ We used an implementation of NMF to produce a topic analysis on the Observations
 ## Interpreation of NMF Topics:
 Topics were fairly distinct and generally described the locational circumstances where the observer made a sighting (Topics 4,5,6,8,9,10). The remainder tended to be some physical description or vestige of the creature itself (Topics 2, 3). Topic 1 was the most generic/vague and difficult to pin down, but the presence of words like "told, know, just, years" may convey a sense of certainty about the story, i.e., "I just know, from my years of experience..."
 
+### Topic Breakdown
+* Topic 1 - certainty of encounter
+* Topic 2 - auditory descriptions
+* Topic 3 - tracks
+* Topic 4 - building from which it was encountered
+* Topic 5 - road/driving encounters
+* Topic 6 - camping encounters
+* Topic 7 - description of creature
+* Topic 8 - hunting in (random?) forest encounters
+* Topic 9 - water/marine encounters
+* Topic 10 - trail encounters 
+
+
 
 ## K Means
 
