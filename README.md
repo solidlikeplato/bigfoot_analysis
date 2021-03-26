@@ -68,14 +68,23 @@ Similar to NMF, the key words that made up the 10 groups provided insight into w
 
 Top Words for Each Cluster:
 0: lake, heard, area, time, like, trail, just, sound, bigfoot, saw 
+
 1, tree, woods, deer, trail, area, hunting, like, heard, just, time 
+
 2, road, saw, car, just, creature, feet, area, tall, like, right 
+
 3, house, heard, like, woods, saw, just, night, time, went, said 
+
 4, river, heard, saw, like, just, area, time, went, looked, walking
+
 5, saw, looked, like, tall, creature, just, large, feet, seen, hair 
+
 6, heard, sound, like, sounded, night, sounds, loud, noise, hear, area 
+
 7, tracks, area, foot, road, like, long, large, took, saw, day 
+
 8, camp, night, heard, like, went, got, sound, just, time, area 
+
 9, creek, area, heard, like, saw, got, time, just, looked, road
 
 
