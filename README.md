@@ -36,8 +36,10 @@ The text of interest was found in the "Observed" column of the dataframe, which 
 ## NMF
 We used an implementation of NMF to produce a topic analysis on the Observations. Analyzing for 10 componenents with max_iter of 500, the nmf model was able to identify distinct topics that generally described the circumstances in which the observer saw the creature:
 
+![Top Ten Words for 10-topic NMF Analysis](images/nmf_10topic_chart.png)
 
-
+## Interpreation of NMF Topics:
+Topics were fairly distinct and generally described the locational circumstances where the observer made a sighting (Topics 4,5,6,8,9,10). The remainder tended to be some physical description or vestige of the creature itself (Topics 2, 3). Topic 1 was the most generic/vague and difficult to pin down, but the presence of words like "told, know, just, years" may convey a sense of certainty about the story, i.e., "I just know, from my years of experience..."
 
 
 ## K Means
